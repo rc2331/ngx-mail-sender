@@ -1,0 +1,25 @@
+{
+  "name": "ngx-mail-sender",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^17.2.0",
+    "@angular/core": "^17.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/ngx-mail-sender.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-mail-sender.mjs",
+      "esm": "./esm2022/ngx-mail-sender.mjs",
+      "default": "./fesm2022/ngx-mail-sender.mjs"
+    }
+  }
+}
